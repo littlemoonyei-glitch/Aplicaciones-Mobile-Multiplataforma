@@ -1,0 +1,29 @@
+<ActionBar class="action-bar">
+  <NavigationButton visibility="hidden"></NavigationButton>
+  <GridLayout columns="50, *">
+    <Label class="action-bar-title" text="Operaciones" colSpan="2"></Label>
+    <Label class="fas" text="&#xf0c9;" (tap)="onDrawerButtonTap()"></Label>
+  </GridLayout>
+</ActionBar>
+
+<StackLayout class="page feature-page">
+  <Label class="platform-badge" [text]="platformLabel"></Label>
+  <Label class="section-title" text="Agenda de trabajo"></Label>
+
+  <ListView [items]="featureItems" height="500" class="feature-list">
+    <ng-template let-item="item">
+      <GridLayout class="feature-item" rows="auto, auto" columns="*, auto" (tap)="onViewDetail(item)">
+        <StackLayout row="0" col="0">
+          <Label [text]="item.title" class="feature-title"></Label>
+          <Label [text]="item.description" class="feature-description"></Label>
+        </StackLayout>
+
+        <StackLayout row="0" col="1" class="feature-badge-wrap">
+          <Label [text]="item.accent" class="feature-badge"></Label>
+        </StackLayout>
+
+        <Label row="1" col="0" [text]="item.category" class="feature-category"></Label>
+      </GridLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>

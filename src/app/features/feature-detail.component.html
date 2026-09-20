@@ -1,0 +1,11 @@
+<ActionBar class="action-bar">
+  <NavigationButton text="Volver" (tap)="goBack()"></NavigationButton>
+  <Label class="action-bar-title" text="Detalle"></Label>
+</ActionBar>
+
+<StackLayout class="page detail-page">
+  <Image src="~/App_Resources/Android/src/main/res/drawable/actividad_ico.png" class="detail-icon"></Image>
+  <Label [text]="item?.title" class="detail-title"></Label>
+  <Label [text]="item?.description" class="detail-text"></Label>
+  <Label [text]="item?.category" class="detail-category"></Label>
+</StackLayout>
