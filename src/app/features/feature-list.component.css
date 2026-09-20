@@ -1,0 +1,67 @@
+.feature-page {
+  background-color: #f5f7fb;
+  padding: 20;
+}
+
+.platform-badge {
+  background-color: #1f6feb;
+  color: white;
+  border-radius: 16;
+  font-size: 13;
+  font-weight: 600;
+  margin-bottom: 12;
+  padding: 8 12;
+  text-align: center;
+}
+
+.section-title {
+  color: #1d2b3a;
+  font-size: 22;
+  font-weight: 700;
+  margin-bottom: 12;
+}
+
+.feature-list {
+  separator-color: transparent;
+}
+
+.feature-item {
+  background-color: white;
+  border-radius: 16;
+  margin-bottom: 12;
+  padding: 16;
+}
+
+.feature-title {
+  color: #132238;
+  font-size: 18;
+  font-weight: 700;
+}
+
+.feature-description {
+  color: #53627b;
+  font-size: 13;
+  margin-top: 6;
+}
+
+.feature-category {
+  color: #1f6feb;
+  font-size: 12;
+  font-weight: 600;
+  margin-top: 8;
+}
+
+.feature-badge-wrap {
+  horizontal-align: right;
+  vertical-align: middle;
+}
+
+.feature-badge {
+  background-color: #dfeeff;
+  border-radius: 12;
+  color: #1f6feb;
+  font-size: 10;
+  font-weight: 700;
+  padding: 8 10;
+  text-align: center;
+}
