@@ -1,0 +1,29 @@
+{
+  "name": "actividad2-catalogo",
+  "version": "1.0.0",
+  "description": "Actividad práctica NativeScript Angular",
+  "scripts": {
+    "android": "ns run android",
+    "preview": "ns preview"
+  },
+  "dependencies": {
+    "@angular/animations": "~16.2.0",
+    "@angular/common": "~16.2.0",
+    "@angular/compiler": "~16.2.0",
+    "@angular/core": "~16.2.0",
+    "@angular/forms": "~16.2.0",
+    "@angular/platform-browser": "~16.2.0",
+    "@angular/router": "~16.2.0",
+    "@nativescript/angular": "~16.0.0",
+    "@nativescript/core": "~8.6.0",
+    "nativescript-pulltorefresh": "^2.3.0",
+    "nativescript-toasts": "^1.0.3",
+    "rxjs": "~7.8.0",
+    "zone.js": "~0.13.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "~8.6.0",
+    "nativescript": "^8.6.0",
+    "typescript": "~5.1.6"
+  }
+}

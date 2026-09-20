@@ -1,0 +1,19 @@
+.page { background-color: #f6f7fb; }
+.action-bar { background-color: #3f51b5; color: white; }
+.fa { font-family: "Font Awesome 6 Free", "FontAwesome"; font-size: 22; }
+.refresh-icon { color: white; padding: 10; }
+.hero { height: 115; opacity: .82; }
+.welcome { background-color: #263a8d; }
+.welcome-title { color: white; font-size: 21; font-weight: bold; margin: -38 18 15; }
+.search-area { padding: 12 16 5; }
+.search-field { background-color: white; border-radius: 8; padding: 10; font-size: 16; }
+.validation { color: #c62828; font-size: 12; margin: 4 2; }
+.gesture-hint { color: #64748b; font-size: 12; text-align: center; margin: 6; }
+.book-list { background-color: transparent; }
+.book-card { margin: 7 12; padding: 10; background-color: white; border-radius: 10; }
+.cover { width: 54; height: 72; border-radius: 5; }
+.book-data { flex-grow: 1; margin-left: 12; }
+.book-title { font-size: 17; font-weight: bold; color: #1e293b; }
+.book-author { font-size: 13; color: #64748b; margin-top: 2; }
+.category { font-size: 12; color: #3f51b5; margin-top: 5; }
+.category-button { font-size: 11; color: #3f51b5; padding: 4; }

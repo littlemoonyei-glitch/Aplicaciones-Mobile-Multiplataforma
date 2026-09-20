@@ -1,0 +1,7 @@
+.action-bar { background-color: #3f51b5; color: white; }
+.detail { padding: 24; horizontal-alignment: center; }
+.detail-cover { width: 210; height: 290; border-radius: 10; }
+.title { font-size: 25; font-weight: bold; color: #1e293b; margin-top: 22; text-align: center; }
+.subtitle { color: #3f51b5; font-size: 15; text-align: center; margin-top: 7; }
+.description { color: #475569; font-size: 16; line-height: 8; margin-top: 25; }
+.save { background-color: #3f51b5; color: white; margin-top: 28; border-radius: 6; }
